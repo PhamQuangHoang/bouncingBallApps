@@ -190,6 +190,7 @@ public class MyView extends View implements Runnable {
                     isOver = false;
                     x1 = random.nextInt(max - min) + min;
                     y1 = 380;
+                    point = 0;
                     for (Brick element : lists) {
                         element.setVisible();
                     }
