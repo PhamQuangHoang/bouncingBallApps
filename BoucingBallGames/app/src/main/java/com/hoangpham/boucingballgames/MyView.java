@@ -186,7 +186,7 @@ public class MyView extends View implements Runnable {
                 }
 
                 // Click on top Left to reset the game
-                if (xTouch < 100 || yTouch < 100) {
+                if (xTouch < 150 && yTouch < 150) {
                     isOver = false;
                     x1 = random.nextInt(max - min) + min;
                     y1 = 380;
